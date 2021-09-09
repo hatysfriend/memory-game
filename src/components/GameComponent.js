@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { utils } from '../math-utils';
-import PlayAgain from './PlayAgain';
-import StarsDisplay from './StarsDisplay';
-import PlayNumber from './PlayNumber';
+import PlayAgain from './PlayAgain.js'
+import StarsDisplay from './StarsDisplay.js';
+import PlayNumber from './PlayNumber.js';
 
 const useGameState = () => {
   const [stars, setStars] = useState(utils.random(1, 9));
